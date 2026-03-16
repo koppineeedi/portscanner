@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybersecurity Port Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Cybersecurity Port Scanner</h1>
+
+<form method="POST">
+
+<label>Target Domain / IP</label>
+<input type="text" name="target" required>
+
+<label>Start Port</label>
+<input type="number" name="start_port" required>
+
+<label>End Port</label>
+<input type="number" name="end_port" required>
+
+<button type="submit">Scan</button>
+
+</form>
+
+{% if results %}
+
+<h2>Scan Results</h2>
+
+<ul>
+{% for port in results %}
+<li>Open Port: {{ port }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+</div>
+
+</body>
+</html>
