@@ -69,6 +69,5 @@ Do not scan networks or systems without permission.
 
 ## 👨‍💻 Author
 
-Your Name  
+Koppineedi Vamsi Lakshmi Satya kumari
 Cybersecurity Enthusiast
-## 📁 Project Structure
