@@ -3,16 +3,12 @@
 A simple **Cybersecurity Port Scanner** built using **Python, Flask, HTML, and CSS**.  
 This project allows users to scan a target domain or IP address through a web interface and identify open network ports.
 
----
-
 ## 📌 Project Description
 
 This application performs **TCP port scanning** using Python socket programming.  
 Users can enter a **target host and port range**, and the system will scan for open ports and display the results on the webpage.
 
 The frontend provides a simple user interface while the backend handles scanning logic and processing.
-
----
 
 ## 🚀 Features
 
@@ -22,8 +18,6 @@ The frontend provides a simple user interface while the backend handles scanning
 - Detect and display **open ports**  
 - Simple and responsive UI  
 
----
-
 ## 🛠 Technologies Used
 
 - **Python**
@@ -31,13 +25,6 @@ The frontend provides a simple user interface while the backend handles scanning
 - **HTML**
 - **CSS**
 - **Socket Programming**
-
-
-
-
-
-
----
 
 ## 📊 Example Usage
 
@@ -58,14 +45,6 @@ This project demonstrates:
 - **Flask web application development**
 - Frontend integration with backend logic
 
----
-
-## ⚠️ Disclaimer
-
-This project is intended **for educational purposes only**.  
-Do not scan networks or systems without permission.
-
----
 
 ## 👨‍💻 Author
 
